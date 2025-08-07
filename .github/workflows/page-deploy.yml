@@ -35,6 +35,9 @@ jobs:
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
+      - name: Clean previous site build
+        run: rm -rf _site/
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
@@ -44,13 +47,9 @@ jobs:
         with:
           ruby-version: 3.3
           bundler-cache: true
-
           
       - name: Install dependencies
         run: bundle install
-
-      - name: Clean previous site build
-        run: rm -rf _site/
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
