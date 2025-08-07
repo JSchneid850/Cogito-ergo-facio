@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>/</id>
+  <id>http://localhost:4000/Cogito-ergo-facio/</id>
   <title>Cogito-Ergo-Facio</title>
   <subtitle>A blog with projects and creations</subtitle>
-  <updated>2025-08-07T11:58:32-05:00</updated>
+  <updated>2025-08-07T12:02:47-05:00</updated>
   <author>
     <name>Joshua Schneider</name>
-    <uri>/</uri>
+    <uri>http://localhost:4000/Cogito-ergo-facio/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/Cogito-ergo-facio/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="/"/>
+    href="http://localhost:4000/Cogito-ergo-facio/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Joshua Schneider </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/Cogito-ergo-facio/assets/img/favicons/favicon.ico</icon>
+  <logo>/Cogito-ergo-facio/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>A Prelude to the Tetris Business Card</title>
-    <link href="/posts/Prelude/" rel="alternate" type="text/html" title="A Prelude to the Tetris Business Card" />
+    <link href="http://localhost:4000/Cogito-ergo-facio/posts/Prelude/" rel="alternate" type="text/html" title="A Prelude to the Tetris Business Card" />
     <published>2025-08-06T00:00:00-05:00</published>
   
     <updated>2025-08-07T11:41:33-05:00</updated>
   
-    <id>/posts/Prelude/</id>
-    <content type="text/html" src="/posts/Prelude/" />
+    <id>http://localhost:4000/Cogito-ergo-facio/posts/Prelude/</id>
+    <content type="text/html" src="http://localhost:4000/Cogito-ergo-facio/posts/Prelude/" />
     <author>
       <name>Joshua Schneider</name>
     </author>
@@ -43,13 +43,13 @@
   
   <entry>
     <title>Hello-World</title>
-    <link href="/posts/HelloWorld/" rel="alternate" type="text/html" title="Hello-World" />
+    <link href="http://localhost:4000/Cogito-ergo-facio/posts/HelloWorld/" rel="alternate" type="text/html" title="Hello-World" />
     <published>2025-05-02T00:00:00-05:00</published>
   
     <updated>2025-05-02T00:00:00-05:00</updated>
   
-    <id>/posts/HelloWorld/</id>
-    <content type="text/html" src="/posts/HelloWorld/" />
+    <id>http://localhost:4000/Cogito-ergo-facio/posts/HelloWorld/</id>
+    <content type="text/html" src="http://localhost:4000/Cogito-ergo-facio/posts/HelloWorld/" />
     <author>
       <name>Joshua Schneider</name>
     </author>
