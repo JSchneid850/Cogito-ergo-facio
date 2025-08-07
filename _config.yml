@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://jschneid850.github.io/Cogito-ergo-facio/"
+url: "https://JSchneid850.github.io"
 
 github:
   username: JSchneid850 # change to your GitHub username
@@ -92,7 +92,7 @@ theme_mode: dark
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: https://JSchneid850.github.io/Cogito-ergo-facio/blob/main/assets
+cdn: https://JSchneid850.github.io/Cogito-ergo-facio/assets
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://avatars.githubusercontent.com/u/68986323?v=4
@@ -147,7 +147,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://jschneid850.github.io/Cogito-ergo-facio/"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
