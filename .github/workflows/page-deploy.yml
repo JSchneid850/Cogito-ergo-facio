@@ -50,7 +50,7 @@ jobs:
         run: bundle install
 
       - name: Clean previous site build
-        run: rm -rf _site
+        run: rm -rf _site/
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
